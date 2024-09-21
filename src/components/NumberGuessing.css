@@ -1,0 +1,68 @@
+/* src/components/NumberGuessing.css */
+
+.number-guessing-container {
+    width: 80%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+}
+
+.guess-input {
+    padding: 10px;
+    width: 80%;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.submit-button,
+.reset-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+.submit-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.reset-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+}
+
+.reset-button:hover {
+    background-color: #c82333;
+}
+
+.message {
+    font-size: 18px;
+    margin-top: 15px;
+    color: #007bff;
+}

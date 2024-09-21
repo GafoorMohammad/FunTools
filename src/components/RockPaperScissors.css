@@ -1,0 +1,74 @@
+/* src/components/RockPaperScissors.css */
+.rps-container {
+    width: 80%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.scoreboard {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #666;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.choice-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    background-color: #007bff;
+    color: white;
+}
+
+.choice-button:hover {
+    background-color: #0056b3;
+}
+
+.choice-button.active {
+    transform: scale(1.1);
+    background-color: #0056b3;
+}
+
+.user-choice, .computer-choice {
+    font-size: 18px;
+    margin-top: 15px;
+    color: #333;
+}
+
+.result {
+    font-size: 20px;
+    margin-top: 10px;
+    transition: color 0.3s;
+}
+
+.result.win {
+    color: green;
+}
+
+.result.tie {
+    color: orange;
+}
+
+.result.lose {
+    color: red;
+}
